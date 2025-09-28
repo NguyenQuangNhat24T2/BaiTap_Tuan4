@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Bai7_QuangNhat 
+public class Bai7 
 {
     public static void main(String[] args) 
     {
