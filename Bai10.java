@@ -1,6 +1,4 @@
 import java.util.Scanner;
-//Bài 10: Viết chương trình để thêm, xóa một phần tử vào danh sách tại vị trí chỉ định
-/*Trần Thị Thu Hiền */
 public class Bai10_ThuHien
 {
      public static void main(String[] args) 
@@ -32,10 +30,7 @@ public class Bai10_ThuHien
             System.out.println("Danh sách sau khi xóa: " + list);
         } 
         else 
-            System.out.println("Vị trí không hợp lệ!");
-        
-
+            System.out.println("Vị trí không hợp lệ!");      
         sc.close();
     }
-
 }
