@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
-public class Bai8_QuangNhat 
+public class Bai8 
 {
     public static void main(String[] args) 
     {
@@ -18,13 +18,11 @@ public class Bai8_QuangNhat
         int maxFreq = 0;
         int mode = arr[0]; 
         for (Map.Entry<Integer, Integer> entry : freq.entrySet()) 
-        {
             if (entry.getValue() > maxFreq) 
             {
                 maxFreq = entry.getValue();
                 mode = entry.getKey();
             }
-        }
         System.out.println("Phan tu xuat hien nhieu nhat: " + mode + " (xuat hien " + maxFreq + " lan)");
         sc.close();
     }
